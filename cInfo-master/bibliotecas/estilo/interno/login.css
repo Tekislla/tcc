@@ -1,6 +1,9 @@
 body > .grid {
     height: 25%;
 }
+body{
+    background-color: #f2f2f2;
+}
 .image {
     margin-top: -100px;
 }
@@ -9,4 +12,18 @@ body > .grid {
 }
 #text_login{
     color: orange;
+}
+#text_senha{
+    color: orange;
+    text-align: left;
+}
+#text_cadastro{
+    color: orange;
+    text-align: left;
+}
+#clique_cadastro{
+    color: green;
+}
+#logo{
+    margin-top: 9px;
 }
