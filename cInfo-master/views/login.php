@@ -10,13 +10,13 @@
     <meta charset="UTF-8">
     <title>cInfo - Login</title>
 </head>
-<body>
+<body style="background-color: #f2f2f2">
 <link rel="stylesheet" href="<?php echo $config['base_url'] ?>bibliotecas/estilo/interno/menu.css">
 <div class="ui grid">
     <div class="ten wide column centered">
         <div class="ui secondary pointing huge three item top fixed menu" id="menu">
             <a class="item" href="<?php echo $config['base_url'] ?>index.php" id="logo">
-                <img src="<?= $config['base_url'] ?>arquivos/img/logo.png" style="">
+                <img id="logo" src="<?= $config['base_url'] ?>arquivos/img/logo.png" style="margin-top: 9px">
             </a>
                 </div>
             </div>
@@ -31,16 +31,18 @@
                 <h3 id="text_login">Logue em sua conta!</h3>
             </div>
         </h1>
-
+        <br><br>
         <form class="ui large form">
             <div class="ui stacked segment">
                 <div class="field">
+                    <h5 id="text_email" style="color: orange; text-align: left">Email</h5>
                     <div class="ui left icon input">
                         <i class="user icon"></i>
                         <input type="email" name="email" placeholder="E-mail">
                     </div>
                 </div>
                 <div class="field">
+                    <h5 id="text_senha" style="color: orange; text-align: left">Senha</h5>
                     <div class="ui left icon input">
                         <i class="lock icon"></i>
                         <input type="password" name="password" placeholder="Senha">
@@ -52,8 +54,15 @@
                         <i class="right arrow icon"></i>
                     </div>
                 </div>
+                <h5 id="text_cadastro" style="color: orange; text-align: left">Novo por aqui? <a href="cadastro.php" id="clique_cadastro" style="color: green">Cadastre-se!</a></h5>
             </div>
         </form>
+        <br><br><br>
+
+        <a href="" style="text-align: left">Sobre</a>
+        <a href="" style="text-align: center; margin-left: 70px; margin-right: 70px">Ajuda</a>
+        <a href="" style="text-align: right; margin-right: 10px">Mais</a>
+        </div>
     </div>
 </body>
 </html>
