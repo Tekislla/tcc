@@ -15,6 +15,10 @@ class Controller extends Construct
         $this->view('login.php');
     }
 
+    public function cadastro(){
+        $this->view('cadastro.php');
+    }
+
     public function sobre(){
         $data['titulo_pagina'] = 'cInfo - Sobre';
         $this->padroes($data);

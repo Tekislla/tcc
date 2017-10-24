@@ -10,18 +10,23 @@ body{
 .column {
     max-width: 450px;
 }
-#text_login{
+#text_nome{
     color: orange;
+    text-align: left;
+}
+#text_nome_exib{
+    color: orange;
+    text-align: left;
 }
 #text_senha{
     color: orange;
     text-align: left;
 }
-#text_cadastro{
+#text_login{
     color: orange;
     text-align: left;
 }
-#clique_cadastro{
+#clique_login{
     color: green;
 }
 #logo{
