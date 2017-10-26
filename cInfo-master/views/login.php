@@ -10,13 +10,13 @@
     <meta charset="UTF-8">
     <title>cInfo - Login</title>
 </head>
-<body style="background-color: #f2f2f2">
+<body>
 <link rel="stylesheet" href="<?php echo $config['base_url'] ?>bibliotecas/estilo/interno/menu.css">
 <div class="ui grid">
     <div class="ten wide column centered">
         <div class="ui secondary pointing huge three item top fixed menu" id="menu">
             <a class="item" href="<?php echo $config['base_url'] ?>index.php" id="logo">
-                <img id="logo" src="<?= $config['base_url'] ?>arquivos/img/logo.png" style="margin-top: 0px">
+                <img id="logo" src="<?= $config['base_url'] ?>arquivos/img/logo.png"">
             </a>
         </div>
     </div>
@@ -34,14 +34,14 @@
         <form class="ui large form">
             <div class="ui stacked segment">
                 <div class="field">
-                    <h5 id="text_email" style="color: orange; text-align: left">Email</h5>
+                    <h5 id="text_email">Email</h5>
                     <div class="ui left icon input">
                         <i class="mail icon"></i>
                         <input type="email" name="email" placeholder="E-mail">
                     </div>
                 </div>
                 <div class="field">
-                    <h5 id="text_senha" style="color: orange; text-align: left">Senha</h5>
+                    <h5 id="text_senha">Senha</h5>
                     <div class="ui left icon input">
                         <i class="lock icon"></i>
                         <input type="password" name="password" placeholder="Senha">
@@ -53,14 +53,13 @@
                         <i class="right arrow icon"></i>
                     </div>
                 </div>
-                <h5 id="text_cadastro" style="color: orange; text-align: left">Novo por aqui? <a href="index.php?acao=cadastro" id="clique_cadastro" style="color: green">Cadastre-se!</a></h5>
+                <h5 id="text_cadastro">Novo por aqui? <a href="index.php?acao=cadastro" id="clique_cadastro">Cadastre-se!</a></h5>
             </div>
         </form>
         <br><br><br>
-
-        <a href="" style="text-align: left; color: green"><b>Sobre</b></a>
-        <a href="" style="text-align: center; margin-left: 70px; margin-right: 70px; color: green"><b>Ajuda</b></a>
-        <a href="" style="text-align: right; color: green"><b>Mais</b></a>
+        <a href="" id="sobre"><b>Sobre</b></a>
+        <a href="" id="feed"><b>Feed</b></a>
+        <a href="" id="crie"><b>Crie</b></a>
         </div>
     </div>
 </body>

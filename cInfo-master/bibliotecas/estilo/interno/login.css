@@ -13,6 +13,10 @@ body{
 #text_login{
     color: orange;
 }
+#text_email{
+    color: orange;
+    text-align: left;
+}
 #text_senha{
     color: orange;
     text-align: left;
@@ -25,5 +29,19 @@ body{
     color: green;
 }
 #logo{
-
+    margin-top: 4.5px;
+}
+#sobre{
+    text-align: left;
+    color: green;
+}
+#feed{
+    text-align: center;
+    color: green;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+#crie{
+    text-align: right;
+    color: green;
 }

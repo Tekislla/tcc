@@ -22,7 +22,7 @@ class Controller extends Construct
     public function sobre(){
         $data['titulo_pagina'] = 'cInfo - Sobre';
         $this->padroes($data);
-        echo 'bla';
+        $this->view('sobre.php');
     }
 
     public function feed(){
